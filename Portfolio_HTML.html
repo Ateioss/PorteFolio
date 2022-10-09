@@ -4,9 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portefolio-Mathis</title>
+    <link rel="stylesheet" href="Portfolio_CSS.css">
 </head>
 <body>
-    
+    <div class="background-screen">
+        <div class="block-portfolio-logo">
+            <img src="Images/Windows-xp-logo.png" class="portfolio-logo">
+        </div>
+        <div class="progess-bar">
+            <div class="progress-bar-step progress">
+            </div>
+            <div class="progress-bar-step progress">
+            </div>
+            <div class="progress-bar-step progress">
+            </div>
+            <div class="progress-bar-step-2 progress">
+            </div>
+            <div class="progress-bar-step-2 progress">
+            </div>
+            <div class="progress-bar-step-2 progress">
+            </div>
+        </div>
+    </div>
+    <script src="Portfolio_JS.js"></script>
+    <script>
+        let rotate = 0;
+        const progess = [
+        	["progress-bar-step","progress-bar-step","progress-bar-step","progress-bar-step-2","progress-bar-step-2","progress-bar-step-2"],
+            ["progress-bar-step-2","progress-bar-step","progress-bar-step","progress-bar-step","progress-bar-step-2","progress-bar-step-2"],
+            ["progress-bar-step-2","progress-bar-step-2","progress-bar-step","progress-bar-step","progress-bar-step","progress-bar-step-2"],
+            ["progress-bar-step-2","progress-bar-step-2","progress-bar-step-2","progress-bar-step","progress-bar-step","progress-bar-step"],
+            ["progress-bar-step","progress-bar-step-2","progress-bar-step-2","progress-bar-step-2","progress-bar-step","progress-bar-step"],
+            ["progress-bar-step","progress-bar-step","progress-bar-step-2","progress-bar-step-2","progress-bar-step-2","progress-bar-step"],
+        ];
+        
+        function progressBar(){
+        	let items = document.querySelectorAll(".progress");
+        	for(let i=0;i<items.length; i++){
+           		items[i].classList.remove("progress-bar-step");
+           		items[i].classList.remove("progress-bar-step-2");
+           		items[i].classList.add(progess[rotate][i]);
+        	}
+        	if(rotate == (items.length - 1)){
+           		rotate = 0;
+        	}else{
+                rotate = rotate + 1;
+            }
+        }
+        
+        let idinterval = setInterval (progressBar, 50);
+
+        setTimeout(loadMainPage,2000);
+
+        function loadMainPage(){
+            clearInterval (idinterval);
+            window.location="main-page.html";
+        }
+        
+    </script>
 </body>
 </html>
