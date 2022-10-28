@@ -20,4 +20,12 @@ after that i've installed imgbot for the optimization of my pictures, this resul
 ![image](https://user-images.githubusercontent.com/113120616/198564877-82cd0d58-d9f0-4e8c-aa50-ba11fcf08dcc.png)
 
 i have installed some other apps like circleci who evaluate the quality of the code of my project
-and i have linked my discord with my github with zipier 
+![2022-10-28 (2)](https://user-images.githubusercontent.com/113120616/198565528-a048f849-ca61-4f1f-bbe9-903dab1b67f9.png)
+
+and code factor who control the code quality at each commit
+![2022-10-28 (3)](https://user-images.githubusercontent.com/113120616/198565436-f2a23a82-a1e5-43f8-9430-4cc2b1db744d.png)
+
+
+and i have linked my discord with my github with zapier 
+![2022-10-28 (12)](https://user-images.githubusercontent.com/113120616/198565952-8232d269-b18b-4856-b41e-ac46ec203c6a.png)
+![2022-10-28 (11)](https://user-images.githubusercontent.com/113120616/198566004-259f94c8-9c73-44f1-9b1b-4411d3b57fcd.png)
