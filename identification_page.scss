@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    height: 100vh;
+    .icon-block{
+    
+        width: 50%;
+        height: 100%;
+        border-right: white solid 1px;
+        
+    }
+    .mathis-pic{
+        max-width: 30%;
+        border-radius: 20px;
+    }
+    .fond-bleu-fonce{
+        background-color:#2332a7;
+        height: 10%;
+        border-bottom: white 1px solid;
+    }
+    .fond-bleu-clair{
+        background-color: #5a7edc;
+        display: flex;
+        flex-direction: row;
+        align-items : center;
+        justify-content : center;
+        height: 80%;    
+    }
+    .password-block{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+    }
+}
+
+footer{
+    
+    .fond-bleu-fonce-2{
+        background-color:#2332a7;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+        border-top: orange 1px solid;  
+          
+    }
+    .center-vertical-element{
+        display: flex;
+        align-items: center;
+    }
+    .log-out-pic{
+        max-width:30px;
+        margin-left: 25px;
+    }
+    .logout-button{
+        text-decoration: none;
+        color: white;
+        font-family: 'Franklin Gothic Medium', arial;
+        margin-left: 15px;
+    }
+
+}
