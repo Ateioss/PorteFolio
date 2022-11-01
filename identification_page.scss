@@ -7,6 +7,12 @@
 
 body{
     height: 100vh;
+    .center-element{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .icon-block{
     
         width: 50%;
@@ -38,6 +44,7 @@ body{
         height: 100%;
     }
 }
+
 
 footer{
     

@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(Images/Windows-xp-wallpaper.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.app-content{
+    display: flex;
+    flex-direction: row;
+    height: 95%;   
+}
+
+header{
+    width: 10%;
+    height: 100%;
+}
+
+main{
+    width: 90%;
+    height: 100%;
+}
+
+footer{
+    background-color: #2058D2;
+    text-align: center;
+}
+
+header nav{
+}
+
+header nav a{
+    display: block;
+}
+
+header nav div{
+    margin-top:10px;
+    text-align: center;
+}
