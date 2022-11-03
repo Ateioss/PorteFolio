@@ -50,22 +50,28 @@ body{
                     background-color: #2332a7;
                     border-radius: 10px;
                     border: white 1px solid;
+                    
                 } 
                 .block-login{
                     display: flex;
                     flex-direction: row;
-                    width: 10%; 
+                    width: 30%; 
                     justify-content: center;
                     .mathis-pic{
                         max-width: 100%;
                         border-radius: 10px; 
                         width: 100px;
+                        &:hover{
+                            border: yellow 2px solid;
+                            cursor: pointer;
+                        }
                     }  
                 }
                 .block-login-title{
                     width: 80%;
                     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     color: white;
+                    font-size: larger;
                 } 
             }   
         }           
@@ -85,8 +91,31 @@ body{
             color: white;
             font-family: 'Franklin Gothic Medium', arial;
             margin-left: 15px;
+            font-size: larger;
         }   
     }  
+}
+@media screen and (max-width: 590px){
+    body{
+        
+        .fond-bleu-clair{
+            flex-direction: column;
+            .icon-block{
+                width: 100%;
+                border: 0px;
+                border-bottom: white 1px solid;
+                
+            }
+            .password-block{
+                width: 100%;
+                justify-content: center;
+                padding: 10px;
+                .password-block-2{
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
 
 
