@@ -4,22 +4,19 @@
   margin: 0px;
 }
 
-body {
-  height: 100vh;
+.center-vertical-element {
+  display: flex;
+  align-items: center;
 }
-body .center-element {
+
+.center-element {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-body .icon-block {
-  width: 50%;
-  height: 100%;
-  border-right: white solid 1px;
-}
-body .mathis-pic {
-  max-width: 30%;
-  border-radius: 20px;
+
+body {
+  height: 100vh;
 }
 body .fond-bleu-fonce {
   background-color: #2332a7;
@@ -34,29 +31,56 @@ body .fond-bleu-clair {
   justify-content: center;
   height: 80%;
 }
-body .password-block {
-  display: flex;
-  flex-direction: column;
+body .fond-bleu-clair .icon-block {
   width: 50%;
   height: 100%;
+  border-right: white solid 1px;
 }
-
-footer .fond-bleu-fonce-2 {
+body .fond-bleu-clair .password-block {
+  display: flex;
+  width: 50%;
+  padding-left: 20px;
+}
+body .fond-bleu-clair .password-block .password-block-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 50%;
+  padding: 10px;
+}
+body .fond-bleu-clair .password-block .password-block-2:hover {
+  background-color: #2332a7;
+  border-radius: 10px;
+  border: white 1px solid;
+}
+body .fond-bleu-clair .password-block .password-block-2 .block-login {
+  display: flex;
+  flex-direction: row;
+  width: 10%;
+  justify-content: center;
+}
+body .fond-bleu-clair .password-block .password-block-2 .block-login .mathis-pic {
+  max-width: 100%;
+  border-radius: 10px;
+  width: 100px;
+}
+body .fond-bleu-clair .password-block .password-block-2 .block-login-title {
+  width: 80%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+body .fond-bleu-fonce-2 {
   background-color: #2332a7;
   height: 10%;
   display: flex;
   flex-direction: row;
   border-top: orange 1px solid;
 }
-footer .center-vertical-element {
-  display: flex;
-  align-items: center;
-}
-footer .log-out-pic {
+body .fond-bleu-fonce-2 .log-out-pic {
   max-width: 30px;
   margin-left: 25px;
 }
-footer .logout-button {
+body .fond-bleu-fonce-2 .logout-button {
   text-decoration: none;
   color: white;
   font-family: "Franklin Gothic Medium", arial;
